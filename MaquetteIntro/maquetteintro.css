@@ -1,0 +1,31 @@
+/*body {
+    text-align: center;
+}*/
+
+#navigation-bar {
+    width: 100%;  /* i'm assuming full width */
+    height: 150px; /* change it to desired width */
+    background-image: url("img/grille.png");
+}
+#logo {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    margin-top: 0px;    /* if you want it vertically middle of the navbar. */
+}
+#paragraphe {
+    background-image: url("img/grille.png");
+}
+.services{
+    margin-top: -10px;
+    display:flex;
+    flex-wrap:wrap;
+    float: right;
+    font-size: 15px;
+}
+.services .service{
+    margin-right: 15px;
+}
+.services .service p{
+    max-width: 300px;
+}
